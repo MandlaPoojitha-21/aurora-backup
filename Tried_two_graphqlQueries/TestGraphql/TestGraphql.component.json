@@ -1,0 +1,26 @@
+{
+  "id": "TestGraphql",
+  "markupLanguage": "REACT",
+  "defaults": {
+    "config": {
+      "applicablePages": [],
+      "description": "This example component is to check possibilty of using two graphql queries in one component."
+    },
+    "props": [
+      {
+        "id": "prop_input",
+        "dataType": "STRING",
+        "list": false,
+        "defaultValue": "",
+        "label": "Input component prop",
+        "control": "INPUT"
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "custom.widget.TestGraphql"
+    }
+  ],
+  "grouping": "CUSTOM"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@aurora/common-styles",
+  "version": "*",
+  "main": "common-styles.module.pcss",
+  "peerDependencies": {
+    "react": "18.3.1"
+  }
+}

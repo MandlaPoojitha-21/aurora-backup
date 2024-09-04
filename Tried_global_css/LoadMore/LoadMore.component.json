@@ -1,0 +1,26 @@
+{
+  "id": "LoadMore",
+  "markupLanguage": "REACT",
+  "defaults": {
+    "config": {
+      "applicablePages": ["COMMUNITY", "CATEGORY", "FORUM_BOARD"],
+      "description": "This example component calls the custom CatFact endpoint and displays a toast with the result."
+    },
+    "props": [
+      {
+        "id": "prop_input",
+        "dataType": "STRING",
+        "list": false,
+        "defaultValue": "",
+        "label": "Input component prop",
+        "control": "INPUT"
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "custom.widget.LoadMore"
+    }
+  ],
+  "grouping": "CUSTOM"
+}

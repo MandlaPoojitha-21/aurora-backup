@@ -1,0 +1,18 @@
+query Users {
+  users(first: 8) {
+    edges {
+      node {
+        id
+        uid
+        registrationData {
+          status
+        }
+        login
+        deleted
+        avatar {
+          url
+        }
+      }
+    }
+  }
+}

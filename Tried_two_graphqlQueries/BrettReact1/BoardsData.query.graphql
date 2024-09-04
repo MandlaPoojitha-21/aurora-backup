@@ -1,0 +1,13 @@
+query BoardsQuery {
+  boards {
+    edges {
+      node {
+        id
+        title
+        views
+        messagesCount
+        conversationStyle
+      }
+    }
+  }
+}
